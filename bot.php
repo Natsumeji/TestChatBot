@@ -42,7 +42,15 @@ if (!is_null($events['events'])) {
 
 			echo $result . "\r\n";
 		}
+		
 	}
 }
+
+<?php
+echo '<script type="text/javascript">
+    window.open("http://google.com");
+</script>';
+?>
+
 echo "OK";
 
